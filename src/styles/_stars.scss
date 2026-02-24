@@ -3,8 +3,8 @@
   gap: 4px;
 
   &__item {
-    width: $star-size;
-    height: $star-size;
+    width: 14px;
+    height: 14px;
     background-color: $color-star-empty;
     mask: url('../images/star.svg') no-repeat center / contain;
     -webkit-mask: url('../images/star.svg') no-repeat center / contain;

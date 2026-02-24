@@ -7,14 +7,12 @@
 body {
   font-family: $font-main;
   background-color: $color-bg-page;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 40px;
+  margin: 0;
 }
 
 .products {
   display: flex;
-  gap: 30px;
+  justify-content: center;
+  gap: $cards-gap;
+  padding: $body-padding;
 }
