@@ -19,9 +19,12 @@
   }
 
   &__media {
-    width: 160px;
+    width: 166px;
     height: 134px;
-    background: url('../images/imac.jpeg') no-repeat center;
+    margin-inline: auto;
+
+    // margin-bottom: 40px;
+    // background: url('../images/imac.jpeg') no-repeat center;
     background-size: 160px 134px;
   }
 
