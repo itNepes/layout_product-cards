@@ -57,6 +57,7 @@
     font-size: 10px;
     line-height: 14px;
     color: $color-text-light;
+    align-self: flex-end;
   }
 
   &__footer {
@@ -80,7 +81,7 @@
 
   &__price {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 18px;
     color: $color-text-main;
   }
@@ -89,7 +90,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 166px;
     height: 40px;
     margin-top: 16px;
     background-color: $color-accent;

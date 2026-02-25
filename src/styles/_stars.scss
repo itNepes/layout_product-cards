@@ -18,24 +18,3 @@
 .stars .stars__item:nth-child(-n + 4) {
   background-image: url('../images/star-active.svg');
 }
-
-// .stars {
-//   display: flex;
-//   gap: 4px;
-
-//   &__item {
-//     width: 14px;
-//     height: 14px;
-//     background-color: $color-star-empty;
-//     mask: url('../images/star.svg') no-repeat center / contain;
-//     -webkit-mask: url('../images/star.svg') no-repeat center / contain;
-//   }
-
-//   @for $i from 1 through 5 {
-//     &--#{$i} {
-//       .stars__item:nth-child(-n + #{$i}) {
-//         background-color: $color-star-active;
-//       }
-//     }
-//   }
-// }
